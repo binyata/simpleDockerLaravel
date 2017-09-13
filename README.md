@@ -1,3 +1,15 @@
+Make sure to have docker installed.
+Type the following where your docker-compose file is located:
+docker-compose up -d
+
+^ this will set up all containers to run in the background.
+Go to http://0.0.0.0:8080 to preview your web service.
+
+To turn off, type docker-compose down where your docker-compose file is located. 
+
+Ignore the information below:
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
